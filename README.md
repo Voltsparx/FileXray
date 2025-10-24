@@ -63,11 +63,11 @@
 #### Method 1: Quick Install (Recommended)
 ```bash
 # Clone the repository
-git clone https://github.com/voltsparx/fFileXraygit
+git clone https://github.com/voltsparx/FileXray.git
 cd FileXray
 
 # Install dependencies
 pip install -r requirements.txt
 
 # Run FileXray
-python filexXay.py
+python fileXray.py
