@@ -420,16 +420,19 @@ class FileXray:
         """Prints the application banner with 3D ASCII art and credit."""
         # Large ASCII art banner for FileXray (impressive, CLI-friendly)
         ascii_art = [
-            rf"{Colors.BLUE}{Colors.BOLD}  ______ _ _       __  __             _                {Colors.END}",
-            rf"{Colors.BLUE}{Colors.BOLD} |  ____| (_)     |  \/  |           | |               {Colors.END}",
-            rf"{Colors.BLUE}{Colors.BOLD} | |__  | |_  __ _| \  / | ___   ___ | |__   ___ _ __  {Colors.END}",
-            rf"{Colors.BLUE}{Colors.BOLD} |  __| | | |/ _` | |\/| |/ _ \ / _ \| '_ \ / _ \ '__| {Colors.END}",
-            rf"{Colors.BLUE}{Colors.BOLD} | |    | | | (_| | |  | | (_) | (_) | |_) |  __/ |    {Colors.END}",
-            rf"{Colors.BLUE}{Colors.BOLD} |_|    |_|_|\__, |_|  |_|\___/ \___/|_.__/ \___|_|    {Colors.END}",
-            rf"{Colors.BLUE}{Colors.BOLD}             __/ |                                    {Colors.END}",
-            rf"{Colors.BLUE}{Colors.BOLD}            |___/                                     {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}  ███████████  ███  ████           █████ █████                                {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD} ░░███░░░░░░█ ░░░  ░░███          ░░███ ░░███                                 {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}  ░███   █ ░  ████  ░███   ██████  ░░███ ███   ████████   ██████   █████ ████ {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}  ░███████   ░░███  ░███  ███░░███  ░░█████   ░░███░░███ ░░░░░███ ░░███ ░███  {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}  ░███░░░█    ░███  ░███ ░███████    ███░███   ░███ ░░░   ███████  ░███ ░███  {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}  ░███  ░     ░███  ░███ ░███░░░    ███ ░░███  ░███      ███░░███  ░███ ░███  {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}  █████       █████ █████░░██████  █████ █████ █████    ░░████████ ░░███████  {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD} ░░░░░       ░░░░░ ░░░░░  ░░░░░░  ░░░░░ ░░░░░ ░░░░░      ░░░░░░░░   ░░░░░███  {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}                                                                    ███ ░███  {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}                                                                    ░░██████  {Colors.END}",
+            rf"{Colors.BLUE}{Colors.BOLD}                                                                     ░░░░░░   {Colors.END}",
             rf"{Colors.CYAN}{Colors.BOLD}=============================================================={Colors.END}",
-            rf"{Colors.MAGENTA}{Colors.BOLD}           Advanced Multimedia Forensic Analysis Tool{Colors.END}",
+            rf"{Colors.MAGENTA}{Colors.BOLD}          Advanced Multimedia Forensic Analysis Tool{Colors.END}",
             rf"{Colors.CYAN}{Colors.BOLD}=============================================================={Colors.END}",
         ]
 
