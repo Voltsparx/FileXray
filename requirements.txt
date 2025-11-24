@@ -1,0 +1,39 @@
+# Core image processing
+Pillow>=9.0.0
+
+# Video processing
+opencv-python>=4.5.0
+numpy>=1.21.0
+
+# Document processing
+PyPDF2>=2.0.0
+pdfplumber>=0.7.0
+python-docx>=0.8.11
+openpyxl>=3.0.9
+python-pptx>=0.6.21
+
+# Audio processing
+pydub>=0.25.1
+mutagen>=1.45.0
+
+# OSINT and geolocation
+geopy>=2.2.0
+
+# Archive processing
+olefile>=0.46
+
+# Web content parsing
+beautifulsoup4>=4.11.0
+
+# Pattern matching
+yara-python>=4.2.0
+
+# OCR capabilities
+pytesseract>=0.3.8
+
+# Enhanced EXIF reading
+Pillow>=9.0.0
+pdfminer.six>=20201018
+olefile>=0.46
+
+# Optional/extended dependencies are in `requirements-optional.txt`
