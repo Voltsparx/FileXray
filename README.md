@@ -1,4 +1,4 @@
-cd FileXray
+
 # FileXray 🔎
 
 FileXray is an open-source multimedia forensic analysis tool focused on extracting metadata, hidden artifacts, and forensic indicators from a wide range of file types. It is intended for OSINT, digital forensics triage, and security analysis.
